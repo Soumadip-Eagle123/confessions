@@ -1,0 +1,13 @@
+{
+  "name": "duronto",
+  "version": "1.0.0",
+  "description": "Cab booking platform with dynamic pricing",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Soumadip Sen",
+  "license": "ISC",
+  "type": "module"
+}
