@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.center {
+  text-align: center;
+}
+
+input, textarea, select, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}

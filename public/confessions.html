@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Confessions</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <h3>Confessions</h3>
+  <button onclick="logout()">Logout</button>
+</nav>
+
+<section>
+  <h3>Submit Confession</h3>
+  <textarea id="confessionText"></textarea>
+
+  <select id="type">
+    <option>Direct Confessions</option>
+    <option>Never Have I Ever</option>
+    <option>Crush</option>
+    <option>Describe Me</option>
+    <option>Opinions</option>
+    <option>Anonymous</option>
+  </select>
+
+  <button onclick="submitConfession()">Submit</button>
+</section>
+
+<section>
+  <h3>All Confessions</h3>
+  <div id="confessionList"></div>
+</section>
+
+<script src="js/utils.js"></script>
+<script src="js/confessions.js"></script>
+</body>
+</html>

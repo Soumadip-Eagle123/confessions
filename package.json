@@ -1,7 +1,7 @@
 {
-  "name": "duronto",
+  "name": "confessions",
   "version": "1.0.0",
-  "description": "Cab booking platform with dynamic pricing",
+  "description": "Confess to your friends, family and your crush!",
   "main": "server.js",
   "scripts": {
     "test": "start",
@@ -9,5 +9,16 @@
   },
   "author": "Soumadip Sen",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "express-validator": "^7.3.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "validator": "^13.15.26"
+  }
 }
