@@ -56,7 +56,6 @@ CONFESSIONS/
 └── README.md
 
 yaml
-Copy code
 
 ---
 
@@ -67,18 +66,16 @@ Copy code
 git clone <repo-url>
 cd CONFESSIONS
 2️⃣ Install dependencies
-bash
 Copy code
 npm install
 3️⃣ Start the server
-bash
-Copy code
+
 npm run dev
 Server runs at:
 
 arduino
-Copy code
-http://localhost:3000
+
+https://confessions-ftkb.onrender.com/
 🌐 Routes Overview
 Auth
 POST /api/auth/register
