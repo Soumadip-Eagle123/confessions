@@ -66,14 +66,11 @@ yaml
 git clone <repo-url>
 cd CONFESSIONS
 2️⃣ Install dependencies
-Copy code
 npm install
 3️⃣ Start the server
 
 npm run dev
 Server runs at:
-
-arduino
 
 https://confessions-ftkb.onrender.com/
 🌐 Routes Overview
